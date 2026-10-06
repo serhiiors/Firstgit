@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>Моя сторінка</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #f0f4f8; text-align: center; }
+    button { padding: 10px 20px; font-size: 16px; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <h1>Привіт, світе!</h1>
+  <button onclick="zminyty()">Натисни мене</button>
+  <script>
+    function zminyty() {
+      document.querySelector("h1").textContent = "Ти натиснув кнопку! 🎉";
+    }
+  </script>
+</body>
+</html>
